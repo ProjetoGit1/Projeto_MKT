@@ -1,0 +1,79 @@
+.partnership {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 40px; /* Aumentando o padding do lado direito e esquerdo */
+}
+
+.partnership img {
+    width: auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.partnership p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .partnership {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .partnership img {
+        width: auto; /* Define a largura automática para a imagem */
+        max-width: 40%; /* Define um máximo para o tamanho da imagem */
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+/* FACHADA POWER KIDS */
+.fachada {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 30px; /* Aumentando o padding do lado direito e esquerdo */
+}
+
+.fachada img {
+    width: auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.fachada p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify; 
+    text-indent:4em
+}
+
+@media (min-width: 768px) {
+    .fachada {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fachada img {
+        width: auto; /* Define a largura automática para a imagem */
+        max-width: 40%; /* Define um máximo para o tamanho da imagem */
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}

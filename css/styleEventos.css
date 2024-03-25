@@ -1,0 +1,50 @@
+/* ::selection {
+	background-color: rgb(255, 69, 54, 0.5);
+} */
+
+.product-wrapper {
+	/* max-width: 70vw; */
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.product-img-wrapper {
+	max-width: 100%;
+}
+
+img#mainImage {
+	border: 10px solid #d8dee6;
+	width: 100%;
+}
+
+/* .eyelid {
+	text-transform: lowercase;
+	font-size: 14px;
+	color: rgb(255 69 54);
+} */
+
+.product-heading,
+.additional-info {
+	justify-content: space-between;
+}
+
+.rating {
+	font-weight: 800;
+}
+
+.thumbnail {
+	width: 100px;
+	margin: 5px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.thumbnail.active {
+	display: none;
+}
+
+.thumbnail:hover {
+	transform: scale(1.1);
+}
+
+

@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(127, 171, 252);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2,
+p,
+li{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans';
+    font-style: inherit;
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-indent: 4ch;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+img {
+    border-style: groove;
+    width: 100%;
+    height: auto;
+}
+
+img.topico {
+    height: 50%;
+    width: 60%;
+    text-align: right;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+

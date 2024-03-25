@@ -1,0 +1,73 @@
+.ftco-about-section {
+    position: relative;
+}
+
+.ftco-about-section .text-wrapper {
+    height: 600px;
+    width: 100%;
+    text-align: justify;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-about-section .text-wrapper {
+        height: inherit;
+    }
+}
+
+.ftco-about-section .one-half {
+    width: 50%;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-about-section .one-half {
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ftco-about-section .one-half.half-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .ftco-about-section .one-half.half-text .text-inner {
+        max-width: 50%;
+    }
+}
+
+.ftco-about-section .one-half.half-text .text-inner h3.heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+    text-align: left;
+}
+
+.ftco-about-section .one-half.half-text .text-inner h3.heading span {
+    color: #0571A0;
+}
+
+.ftco-about-section .one-half.half-text .text-inner ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ftco-about-section .img {
+    height: 600px;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    position: relative;  
+}
+
+@media (max-width: 767.98px) {
+    .ftco-about-section .img {
+        margin-bottom: 20px;
+    }
+}

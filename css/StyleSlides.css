@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerproje {
+    position: relative;
+}
+
+.containerproje .slide-container .slide {
+    min-height: 100vh;
+}
+
+.containerproje .slide-container {
+    display: none;
+}
+
+.containerproje .slide-container.active {
+    display: block;
+}
+
+.containerproje .slide-container:nth-child(1) .slide {
+    background: url(../IMG/Capas/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+
+.containerproje .slide-container:nth-child(2) .slide {
+    background: url(../IMG/Capas/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+
+/* .containerproje .slide-container:nth-child(3) .slide {
+    background: url(../IMG/Home03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 10s;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.containerproje #prev,
+.containerproje #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.596);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.containerproje #prev:hover,
+.containerproje #next:hover {
+    background: #ffffff00;
+}
+
+.containerproje #prev {
+    left: 20px;
+}
+
+.containerproje #next {
+    right: 20px;
+}
+
+
+
+@media(max-width: 500px) {
+    .containerproje #prev {
+        left: 0px;
+        top: 60%;
+    }
+
+    .containerproje #next {
+        right: 0px;
+        top: 60%;
+    }
+
+}
